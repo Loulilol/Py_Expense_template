@@ -9,7 +9,6 @@ def get_users():
             if row:
                 user = row[0]
                 users.append(user)
-    print(users)
     return users
 
 def get_involved():
@@ -20,7 +19,6 @@ def get_involved():
             if row:
                 inv = row[0]
                 involved.append({ 'name' : inv })
-    print(involved)
     return involved
 
 expense_questions = [
